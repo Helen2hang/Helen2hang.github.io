@@ -296,6 +296,15 @@ footer {
         font-size: 25px;
         letter-spacing: 3px;
     }
+    .overlay {
+        padding-top: 15%;
+        padding-bottom: 10%;
+        opacity: 0;
+        transition-duration: 0.5s;
+        background-color: black;
+        height: 100%;
+        color: white;
+    }
 }
 
 /* Landscape phones and portrait tablets */
@@ -330,6 +339,15 @@ footer {
     .container-fluid {
         padding: 40px 20px 40px 20px;
         font-size: 11pt;
+    }
+    .overlay {
+        padding-top: 15%;
+        padding-bottom: 10%;
+        opacity: 0;
+        transition-duration: 0.5s;
+        background-color: black;
+        height: 100%;
+        color: white;
     }
 }
 
@@ -374,5 +392,14 @@ footer {
         color: white;
         font-size: 30px;
         text-decoration: none;
+    }
+    .overlay {
+        padding-top: 20%;
+        padding-bottom: 16%;
+        opacity: 0;
+        transition-duration: 0.5s;
+        background-color: black;
+        height: 100%;
+        color: white;
     }
 }
