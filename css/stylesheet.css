@@ -106,7 +106,7 @@ body {
 }
 
 .subtitle {
-    font-size: 25pt;
+    font-size: 1.5vw;
     letter-spacing: 8px;
     line-height: 150%;
 }
@@ -149,15 +149,6 @@ body {
     color: white;
 }
 
-#techno {
-    padding-top: 30px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: white;
-    opacity: 0.75;
-}
-
 #educ {
     padding-top: 30px;
     padding-bottom: 20px;
@@ -166,21 +157,6 @@ body {
     color: #e0e0e0;
     line-height: 150%;
     text-align: right;
-}
-
-.project {
-    background-color: #0a3b43;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 40px;
-    text-align: center;
-    line-height: 150%;
-    font-size: 12pt;
-    color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .noMarginPadding {
@@ -202,7 +178,7 @@ body {
 }
 
 #proj2 {
-    background-image: url("../images/conushop1.PNG");
+    background-image: url("../images/conushop1.png");
 }
 
 #proj3 {
@@ -224,7 +200,7 @@ body {
 }
 
 .overlay p {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 ul {
@@ -232,8 +208,8 @@ ul {
     padding-left: 0;
 }
 
-.width100{
-    width:100%;
+.width100 {
+    width: 100%;
 }
 
 .projectIMG {
@@ -320,9 +296,6 @@ footer {
         font-size: 25px;
         letter-spacing: 3px;
     }
-    #portfolio {
-        padding: 20px 0px 20px 0px;
-    }
 }
 
 /* Landscape phones and portrait tablets */
@@ -358,10 +331,6 @@ footer {
         padding: 40px 20px 40px 20px;
         font-size: 11pt;
     }
-    .project {
-        margin-right: 0px;
-        font-size: 11pt;
-    }
 }
 
 /* Portrait phones and smaller */
@@ -392,10 +361,6 @@ footer {
     }
     .container-fluid {
         padding: 40px 20px 40px 20px;
-        font-size: 10pt;
-    }
-    .project {
-        margin-right: 0px;
         font-size: 10pt;
     }
     .element {
