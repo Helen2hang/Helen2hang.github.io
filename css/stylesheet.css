@@ -1,0 +1,413 @@
+body {
+    font-family: century gothic;
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: white;
+    font-family: century gothic;
+    opacity: 0.8;
+    background-color: transparent;
+}
+
+.navbar-nav li a {
+    color: #FFF !important;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+.navbar-nav li a:hover {
+    color: #FFF !important;
+    opacity: 1;
+}
+
+.element {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+    opacity: 0.70;
+    font-size: 20px;
+    z-index: 1;
+    -webkit-transition: font-size 0.3s ease-out;
+    -moz-transition: font-size 0.3s ease-out;
+    -o-transition: font-size 0.3s ease-out;
+    transition: font-size 0.3s ease-out;
+}
+
+.element:hover {
+    font-size: 30px;
+}
+
+.element a {
+    color: gray;
+    text-decoration: none;
+    line-height: 10%;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+}
+
+.element a:hover {
+    color: white;
+    opacity: 1;
+}
+
+#parallax {
+    background-image: url("../images/helenzhangbanner5.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: century gothic;
+    height: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+#whiteBox {
+    border: white 2px solid;
+    opacity: 0.60;
+}
+
+.bigWhiteTitle {
+    font-size: 5vw;
+    letter-spacing: 12px;
+    color: white;
+}
+
+.bigSubtitleWhite {
+    font-size: 1.7vw;
+    color: white;
+    letter-spacing: 8px;
+    line-height: 150%;
+}
+
+.title {
+    font-size: 35pt;
+    letter-spacing: 8px;
+    line-height: 250%;
+}
+
+.textBlue {
+    color: #46BDB9;
+}
+
+.subtitle {
+    font-size: 25pt;
+    letter-spacing: 8px;
+    line-height: 150%;
+}
+
+.textGray {
+    color: #5e5e5e;
+}
+
+.textWhite {
+    color: white;
+}
+
+.textDarkGray {
+    color: #262626;
+}
+
+.container-fluid {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: century gothic;
+    line-height: 150%;
+    font-size: 12pt;
+}
+
+.blackBg {
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+}
+
+.blueBg {
+    background-color: #1BA9BF;
+    color: black;
+}
+
+.grayBg {
+    background-color: #262626;
+    color: white;
+}
+
+#techno {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    opacity: 0.75;
+}
+
+#educ {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 20px;
+    color: #e0e0e0;
+    line-height: 150%;
+    text-align: right;
+}
+
+.project {
+    background-color: #0a3b43;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    line-height: 150%;
+    font-size: 12pt;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.noMarginPadding {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.projBg {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#proj0 {
+    background-image: url("../images/cvi.png");
+}
+
+#proj1 {
+    background-image: url("../images/crypto.png");
+}
+
+#proj2 {
+    background-image: url("../images/conushop1.PNG");
+}
+
+#proj3 {
+    background-image: url("../images/conulearn0.png");
+}
+
+.overlay {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    opacity: 0;
+    transition-duration: 0.5s;
+    background-color: black;
+    height: 100%;
+    color: white;
+}
+
+.overlay:hover {
+    opacity: 0.90;
+}
+
+.overlay p {
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.width100{
+    width:100%;
+}
+
+.projectIMG {
+    width: 75%;
+    height: 75%;
+    padding: 1px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bordered {
+    border: #46BDB9 2px solid;
+    padding: 5px;
+}
+
+.label-default {
+    line-height: 200%;
+}
+
+.heavy {
+    font-weight: bold;
+}
+
+.ghost {
+    visibility: collapse;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+/* Large desktops and laptops */
+
+@media (min-width: 1200px) {
+    #whiteBox {
+        padding-top: 80px;
+        padding-bottom: 100px;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .ghost {
+        visibility: collapse;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #whiteBox {
+        padding-top: 80px;
+        padding-bottom: 100px;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #whiteBox {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .bigSubtitleWhite {
+        font-size: 1.5vw;
+        line-height: 150%;
+        letter-spacing: 7.5px;
+    }
+    .container-fluid {
+        padding: 40px 20px 40px 20px;
+        font-size: 11pt;
+    }
+    .title {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+    .subtitle {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    #portfolio {
+        padding: 20px 0px 20px 0px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+    .navbar {
+        opacity: 0.8;
+        background-color: black;
+    }
+    #whiteBox {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .bigWhiteTitle {
+        letter-spacing: 8px;
+        padding-bottom: 10px;
+    }
+    .bigSubtitleWhite {
+        letter-spacing: 4px;
+        line-height: 150%;
+    }
+    .title {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+    .subtitle {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    .container-fluid {
+        padding: 40px 20px 40px 20px;
+        font-size: 11pt;
+    }
+    .project {
+        margin-right: 0px;
+        font-size: 11pt;
+    }
+}
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+    .navbar {
+        opacity: 0.8;
+        background-color: black;
+    }
+    #parallax {
+        padding-top: 30%;
+    }
+    .bigWhiteTitle {
+        letter-spacing: 2px;
+    }
+    .bigSubtitleWhite {
+        letter-spacing: 2px;
+        line-height: 150%;
+        font-size: 1.7vw;
+    }
+    .title {
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+    .subtitle {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    .container-fluid {
+        padding: 40px 20px 40px 20px;
+        font-size: 10pt;
+    }
+    .project {
+        margin-right: 0px;
+        font-size: 10pt;
+    }
+    .element {
+        visibility: hidden;
+    }
+    .ghost {
+        visibility: visible;
+        padding-top: 30px;
+    }
+    .ghost a {
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+    }
+}
