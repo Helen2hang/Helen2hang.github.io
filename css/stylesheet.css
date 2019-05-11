@@ -1,5 +1,6 @@
 body {
-    font-family: century gothic;
+    font-family: 'century gothic', 'Montserrat', sans-serif;
+    font-weight: 400;
     overflow-x: hidden;
 }
 
@@ -12,7 +13,8 @@ body {
     font-size: 12px;
     letter-spacing: 5px;
     color: white;
-    font-family: century gothic;
+    font-family: 'century gothic', 'Montserrat', sans-serif;
+    font-weight: 400;
     opacity: 0.8;
     background-color: transparent;
 }
@@ -147,6 +149,12 @@ body {
 .grayBg {
     background-color: #262626;
     color: white;
+}
+
+#skills {
+    border-left: black solid 1px;
+    margin-top: 30px;
+    padding-bottom: 20px;
 }
 
 #educ {
